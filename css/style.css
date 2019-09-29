@@ -6,16 +6,20 @@
     opacity: 0.9;
     border: 5px solid #BD9C51; 
     font-family:Tahoma;
+    border-radius: 5%;
             } 
 header {
     max-width: 960px;
+    max-height: 350px;
     margin: 0 auto;
     padding: 10px;
+    padding-right: 20px;
     background-color: #D18523;
-    font-size: 3em;
+    font-size: 3.3em;
     text-align:right;
     font-family: Papyrus;  
     border: 5px solid #3F000E;
+    
       }
 body {
     background-image: url(https://cdn.glitch.com/546ebc80-2bae-4794-a79b-eb6a74d05bb4%2Fpexels-photo-631339%20L.jpeg?1547968905575);
@@ -23,13 +27,19 @@ body {
 li {
     font-size: 1.5em;
     list-style-type: square;
+    padding-left: 20px;
    }
 h1 {
     font-size:2.5em;
+    padding-left: 20px;
 
    }
+footer {
+     text-align: center;
+       }
 #tjb {
     border-radius: 80%;
+    padding-top: -5px;
     border: 5px solid black; 
     float: left;
      }

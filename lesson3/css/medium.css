@@ -1,0 +1,37 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+       font-size: 3.5em;
+       text-align: right;
+       padding-right: 20px;
+           }
+    h1 {
+       font-size: 2em; 
+       padding-left: 20px;
+       }   
+    p {
+       font-size: 1.5em;
+       padding-left: 20px;
+       } 
+    footer {
+        border-radius: 5%;
+           }    
+    #context {
+       border-radius: 5%;
+             } 
+    #context1 {
+        border-radius: 5%;
+             } 
+    ul {
+        font-size: 1.5em;
+        padding-left: 40px;
+        line-height: 1.4;
+       }    
+    ol {
+        font-size: 1.5em;
+        padding-left: 40px;
+        line-height: 1.4;
+       }       
+    #tjb {
+        float: left;
+         }
+                                         }

@@ -1,0 +1,36 @@
+	nav button {
+		margin: .2rem 2%;
+		background-color: transparent;
+		border: none;
+		font-size: 1.6rem;
+	    color: #343631;
+	           }
+	nav {
+		background-color: #ddf3fe;
+        font-family: 'Carrois Gothic SC', sans-serif;
+	    }
+	nav ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		   }
+    nav ul li a {
+		display: block;
+		padding: .8rem 2%;
+		text-decoration: none;
+		color: #343631;
+		border-top: 1px solid #343631;
+	            }
+	nav ul li a:hover {
+        background-color:#DA9320;
+	    color: #ddf3fe;
+					  }	  
+	nav ul.hide {
+		display:none;
+				}
+	.clearfix:after {
+		content: "";
+		display: table;
+		clear: both;
+	                 }
+					

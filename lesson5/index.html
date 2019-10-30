@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>CIT 250 Projects | TJB | BYU Idaho</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Action Weather of Franklin County" >
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+     
+<body>
+    <div id="message"> Come join us on Saturday For Preston Pancakes in the Park!<br> 9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+    <img src="img/iconfinder_quick_restart_6649.png" id="bolt" alt="bolt">
+    <section class="headings">
+           <h1>ACTION WEATHER</h1> 
+           <div class="motto">Bringing Lighting Quick Weather Updates to Franklin County</div>
+        </section>
+     </header>
+    <nav class="clearfix">
+         <button onclick="toggleMenu()">&#9776; &nbsp; Menu</button>
+         <ul id="primaryNav" class="toggle">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a class="under" href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+       <h2>Preston, Idaho</h2>
+       <div class="hero" >
+           <img src="img/architecture-building-city-208698.jpg" id="town">
+           <section class="stats">
+               <h3><u>Action Summary</u></h3>
+               <p>Currently:&nbsp;Over Cast</p>
+               <p>High:&nbsp;45 &deg;F</p>
+               <p>Wind Chill:&nbsp;10&deg;F</p>
+               <p>Humidity:&nbsp;62%</p>
+               <p>Wind Speed:&nbsp;5 mph</p>
+           </section>
+       </div>
+       <div class="cast">
+           <section class="weather">
+           <h2>5 Day Forecast</h2>
+            <table  class="report">
+                <tr>
+                   <th>Thur</th> 
+                   <th>Fri</th>
+                   <th>Sat</th>
+                   <th>Sun</th>
+                   <th>Mon</th>
+                </tr>
+                <tr>
+                    <td><img src="img/weather-8.png" id="w1"></td>
+                    <td><img src="img/weather-7.png" id="w2"></td>
+                    <td><img src="img/weather-9.png" id="w3"></td>
+                    <td><img src="img/weather-12.png" id="w4"></td>
+                    <td><img src="img/weather-2.png" id="w5"></td>
+                </tr>
+                <tr>
+                   <td>45&deg;</td>
+                   <td>43&deg;</td>
+                   <td>46&deg;</td>
+                   <td>41&deg;</td>
+                   <td>38&deg;</td>
+                </tr>
+            </table>
+            </section>
+        </div>
+        <br>
+        <div class="art" >
+            <article>
+                  <h2> Something Great</h2>
+                  <img src="img/animal-bison-buffalo-46188.s.jpg " id="buffalo" alt="buffalo">
+                  <p>by Ralph Jenson<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, inventore maxime quibusdam quod ipsam quaerat cum deleniti ducimus autem amet laudantium sunt labore consequuntur, sequi perferendis fuga temporibus, iste minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae maxime, iure quaerat sunt, dolores aspernatur quo necessitatibus enim ducimus quam possimus ipsa. Quaerat est soluta odit? Tempora delectus quod alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ipsam nobis? Dolore qui soluta, perspiciatis inventore tempora assumenda nam aliquam, voluptatibus rem error mollitia vel. Voluptatibus praesentium placeat earum itaque?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt quisquam architecto recusandae! Rem sequi tempore impedit exercitationem. Accusantium molestias vero a expedita sint sed ullam, similique vel deleniti veritatis?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, deserunt! Esse magni accusantium, unde veritatis quasi incidunt dolor atque harum itaque rem, facere et sed odit ad? Nobis, sapiente ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laboriosam corporis optio sapiente ratione vitae, accusantium architecto dicta veniam amet iusto odit facilis dolor totam impedit ullam distinctio asperiores unde!</p>
+            </article>
+        </div>
+        <br>
+       <div class="con-info" >
+            <div class="leftcol"><img src="img/Map.jpg" id="map" alt="map">
+            </div>
+            <div class="rightcol"> 
+                <h3>Action Weather of<br>Franklin County, Idaho</h3>
+                <p>300 W Center Street.<br>
+                   Preston, Id 83263
+                   <br>
+                   <br>
+                   <img src="img/iconfinder_09_111025.png" class="icon2">&nbsp;208-888-8888 <br>
+                   <img src="img/iconfinder_map_299050.png" class="icon2">&nbsp;actionweatherfc@eee.com    
+                   <br>
+                   <br>
+                   <a class="socialmedia" target="_blank" href="https://www.facebook.com" alt="Facebook"><img class="icon" src="img/facebook.png" alt="Facebook"></a> 
+                   <a class="socialmedia" target="_blank" href="https://www.instagram.com" alt="Instagram"><img class="icon" src="img/instagram.png" alt="Instagram"></a>
+                   <a class="socialmedia" target="_blank" href="https://www.twitter.com" alt="Twitter"><img class="icon" src="https://cdn.glitch.com/d54b9467-7374-4709-8aa1-645df1a4989d%2Ftwitter.png?1538428423658" alt="twitter"></a>
+                </p>
+
+            </div>
+       </div>
+    </main>
+    <footer>
+        <p>&copy;Action Weather of Franklin County | Thomas Berntsen |</p>
+        <script >document.write( document.lastModified );</script>
+    </footer>
+
+    <script >
+        function toggleMenu() { 
+	    document.getElementById("primaryNav").classList.toggle("hide");	
+                              }
+        
+        
+        const today = new Date();
+        console.log(today);
+
+        const dayNumber = today.getDay();
+        console.log(dayNumber);
+
+        const element = document.getElementById("message");
+
+        if (dayNumber == 6) {
+	        element.classList.add("showme");
+        } else {
+	        element.classList.add("hideme");
+               }           
+                                    
+        </script>
+</body>
+</html>

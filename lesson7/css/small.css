@@ -1,0 +1,207 @@
+     body {
+	    background-color: #376c84;  
+	     margin: 0 auto;
+          }
+	 header  {
+		background-color: #343631;
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 10px;
+		padding-right: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 5px solid #262824;
+		 }	
+	nav button {
+		margin: .2rem 2%;
+		background-color: transparent;
+		border: none;
+		font-size: 1.6rem;
+	    color: #343631;
+	           }
+	nav {
+		background-color: #ddf3fe;
+		font-family: 'Carrois Gothic SC', sans-serif;
+		font-size: 1em;
+	    }
+	nav ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		   }
+    nav ul li a {
+		display: block;
+		padding: .8rem 2%;
+		text-decoration: none;
+		color: #343631;
+		border-top: 1px solid #343631;
+	            }
+	nav ul li a:hover {
+        background-color:#DA9320;
+	    color: #ddf3fe;
+					  }	  
+	nav ul.hide {
+		display:none;
+				}
+	nav ul li.active a {
+		background-color: #DA9320;
+		color: #ddf3fe;
+		opacity: 0.9;
+					   }
+	main {
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 10px;
+		background-color: #87ceed;
+		border: 5px solid #6FA9C2;
+		}
+	.headings h1 {
+		font-size: 2em;
+		margin: 0 0 0 17px;
+		color: #DA9320;
+		text-align: right;
+		font-style: italic;
+		font-family: 'Carrois Gothic SC', sans-serif;
+				}
+	h2 {
+		text-align: left;
+		padding-left: 15px;
+		font-family: 'Lato', sans-serif;
+		font-size: 1.25em;
+				 }
+	h3 p{
+	    margin: 0;
+		font-size: .8em;
+		font-family: 'Lato', sans-serif;
+
+				}
+	h3 {
+	   font-family: 'Lato', sans-serif;
+	   }
+	p {
+		font-family: 'Lato', sans-serif;
+		 font-size: 1em; 
+	  }
+	footer {
+	    background-color: #343631;
+		border: 5px solid #262824;
+		font-family: 'Lato', sans-serif;
+		padding: 10px;
+		color:#ddf3fe;
+		max-width: 960px;
+		margin: 0 auto;
+		text-align: center;
+		   }
+	.motto {
+		font-size: 1em;
+		font-family: 'Carrois Gothic SC', sans-serif;
+		color: #ddf3fe;
+		   }
+	.under {
+	    text-decoration: underline;
+		   }
+	.hero {
+		margin: 10px auto;
+		position: relative;
+		  }
+    #town{
+		max-width: 99%;
+		height: auto;
+		border: 4px solid black;
+		}
+	.cast {
+		display: none;
+	      }
+	.stats {
+		position: absolute;
+		max-width: 100%;
+		line-height: 60%;
+		top: 20px;
+		left: 20px;
+		border: 5px solid #99611A;
+		background-color: #DA9320;
+		color: #343631;
+		opacity: .9;
+		padding: 5px;
+		font-size: 1em;
+		  }
+
+	.art {
+		background-color: #ddf3fe;
+		border: 4px solid #C9DDE7;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+	#buffalo{
+		max-width: 40%;
+		padding: 20px;
+		float: right;
+	}
+	.con-info {
+		background-color: #ddf3fe;
+		border: 4px solid #C9DDE7;
+	}
+	#map {
+		display: none;
+		padding: 20px;
+	}
+	.icon {
+		width: 40px;
+		height: 40px;
+			 }
+	.icon2 {
+		width: 15px;
+		height:15px;
+	}
+	.rightcol {
+		padding: 20px;
+	}
+	.socialmedia {
+		padding: 5px;
+		align-items: right;
+		font-size: .8em;
+				   }
+	
+    div#message {
+		background-color: #DA9320;
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		font-size: 1em;
+		padding: 10px;
+		border: 5px solid #99611A;
+	}
+	div.showme{
+		display: block;
+	}
+	div.hideme{
+		display: none;
+	}
+
+ /* Gallery Page */
+
+  #G1, #G2, #G3, #G4, #G5, #G6, #G7, #G8, #G9{
+	  max-width: 100%;
+	  border: 5px solid #262824;
+	  padding: 10;
+  }
+  figcaption{
+	font-family: 'Lato', sans-serif;
+	
+	padding: 5px;
+  }
+  #G1:hover, #G2:hover, #G3:hover, #G4:hover, #G5:hover, #G6:hover, #G7:hover, #G8:hover, #G9:hover{
+	  box-shadow: 0px 1px 20px 10px #376c84;
+  }
+ .weatherimg {
+	display: grid;
+	grid-template-columns: 1fr;
+
+  }
+
+
+	.clearfix:after {
+		content: "";
+		display: table;
+		clear: both;
+	                 }

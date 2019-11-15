@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Action Weather of Franklin County</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Action Weather of Franklin County" >
+    <link href="https://fonts.googleapis.com/css?family=Carrois Gothic SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+     
+<body onload = "windChill();">
+    <div id="message"> Come join us on Saturday For Preston Pancakes in the Park!<br> 9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+    <img src="img/iconfinder_quick_restart_6649.png" id="bolt" alt="bolt">
+    <section class="headings">
+           <h1>ACTION WEATHER</h1> 
+           <div class="motto">Bringing Lighting Quick Weather Updates to Franklin County</div>
+        </section>
+     </header>
+    <nav class="clearfix">
+         <button onclick="toggleMenu()">&#9776; &nbsp; Menu</button>
+         <ul id="primaryNav" class="toggle">
+            <li><a href="#">Home</a></li>
+            <li ><a href="index.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a class="under" href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="sc">
+        <h2>Welcome to the Storm Center </h2>
+        <p>To bring you better and more uptdate weather reports we would like you astiance. Please fill out this form below and tell us about how the severe weather is in your area and if you feel so incline please leave your story in the comment box bellow.</p></div>
+    <form action="thanks.html" method="get">
+      <fieldset>
+          <legend>Contact Information</legend>
+          <label for="name">*Full Name:<br><input type="text" name="name" required></label><br>
+          <label>Email:<br><input type="email" name="email" placeholder="email@gmail.com"></label><br>
+          <label for="phone">*Phone:<br><input type="tel" name="phone" placeholder="xxx-xxx-xxxx" required ><label><br>
+          <label for="num">*Zip Code:<br><input type="number" name="num" required></label>
+      </fieldset>
+      <fieldset>
+          <legend>Storm Data</legend>
+             <label>Storm Date:<br><input type="date" name="completeDate"></label><br>
+             <label>Storm Type:<br>
+                 <select name="subject">
+                 <option value="">Select Storm</option>
+                 <option value="Flash Flood">Flash Flood</option>
+                 <option value="Hail">Hail</option>
+                 <option value="Hurricane">Hurricane</option>
+                 <option value="Thunderstorm">Thunderstorm</option>
+                 <option value="Tornado">Tornado</option>
+                </select>
+             </label><br>
+             <div class="range">
+             <label class="flexly" for="rating">Storm Rating:<br><input type="range" id="rating" vaule="1" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"> <span id="ratingvalue">5</span>
+             </label>
+             <datalist id="tickmarks">
+                <option value="0">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">            
+             </datalist>
+            </div>
+             <label>Storm Region:<br>
+                <select name="subject">
+                    <option value="Select Region">Select Region</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
+             </label>
+      </fieldset>
+      <fieldset>
+          <legend>Addtional Information</legend>
+          <div class="title">Are You In Any Danger?</div><br>
+          <label class="radio"><input type="radio" name="audience" value="Yes">&nbsp;Yes</label>
+          <label class="radio"><input type="radio" name="audience" value="Maybe">&nbsp;Maybe</label>
+          <label class="radio"><input type="radio" name="audience" value="No">&nbsp;No</label>
+          <br>
+           <label>
+                <div class="title">Comments:</div>
+               <textarea name="mesdage" rows="10" cols="40"></textarea>
+           </label>     
+        </fieldset>
+             <input type="submit" value="Report the Storm" id="button" >
+            </form>
+    </main>
+        <footer>
+            <p>&copy;Action Weather of Franklin County | Thomas Berntsen |</p>
+            <script >document.write( document.lastModified );</script>
+        </footer>
+        <script src="java/script.js"></script>
+        <script src="java/windchill.js"></script>
+        <script src="java/rating.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    </body>
+    </html>

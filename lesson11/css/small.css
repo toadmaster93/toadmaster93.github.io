@@ -97,6 +97,24 @@
 		margin: 0 auto;
 		text-align: center;
 		   }
+	footer p{
+		color: #DA9320;
+	}
+	footer a:link{
+		color: #DA9320;
+		text-decoration: none;
+		padding:5px;
+		list-style: none;
+	}
+	footer a:hover {
+		color: #DA9320;
+		text-decoration: underline;
+	}
+	footer a:visited {
+		color: #DA9320;
+		text-decoration: none;
+		padding:5px;
+	}
 	.motto {
 		font-size: 1em;
 		font-family: 'Carrois Gothic SC', sans-serif;
@@ -135,12 +153,18 @@
 		background-color: #ddf3fe;
 		border: 4px solid #C9DDE7;
 		padding-left: 20px;
+		padding-right: 20px;
 		padding-bottom: 20px;
 	}
-	#buffalo{
+	#artimg1{
 		max-width: 40%;
 		padding: 20px;
 		float: right;
+	}
+	#artimg2{
+		max-width: 40%;
+		padding: 20px;
+		float: left;
 	}
 	.con-info {
 		background-color: #ddf3fe;
@@ -258,7 +282,7 @@
 	max-width: 100%;
     border: 5px solid #DA9320;
 	background-color: #376c84;  
-	box-shadow: 0 0 50px #376c84;
+	box-shadow: 0 0 10px #376c84;
 }
 .townimage {
 	display: block;
@@ -276,7 +300,27 @@
 	padding: 10px; 
 	text-align: center;
 }
- 
+ .events {
+	background-color: #343631;
+	border: 4px solid #262824;
+	
+	padding-left: 20px;
+	padding-bottom: 20px; 
+ }
+
+ .events h3 {
+    color: #DA9320;
+ }
+ .events p {
+    color: #ddf3fe;
+ }
+ .art li{
+   padding-left: 15px;
+   padding: 10px;
+   font-family: 'Lato', sans-serif;
+   font-size: 1em;
+   list-style-type: square;	 
+ }
   .clearfix:after {
 	content: "";
 	display: table;

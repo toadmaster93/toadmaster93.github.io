@@ -1,0 +1,11 @@
+@media only screen and (min-width: 64em) {
+    header {
+        padding-left: 180px;
+    }    
+    nav {
+        margin: 0 auto;
+        background-color: #bd9c51;
+        padding: 10px;
+        padding-left: 170px;
+        }
+}

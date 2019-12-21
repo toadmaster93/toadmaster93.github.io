@@ -20,7 +20,22 @@
 		border: none;
 		padding: .8rem 1rem;
 	}
-
+	.sc {
+		max-width: 48%; 
+		padding: 10px;
+		float: right;
+		margin: 20px;
+		display: flex; 
+        flex-flow: row wrap;
+        justify-content:right;
+        align-items: right;	
+		}
+    .con-info {
+		padding: 15px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		}
 
 
 

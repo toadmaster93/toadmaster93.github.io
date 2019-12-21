@@ -8,4 +8,16 @@
         padding: 10px;
         padding-left: 170px;
         }
+    .button{
+            text-align: center;
+            padding:20px;
+        }
+    button {
+        display: inline-block;
+        font-size: 1em;
+    }
+    #img1 {
+     padding-right: 150px;
+    }
+
 }

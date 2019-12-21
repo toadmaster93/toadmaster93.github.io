@@ -8,7 +8,7 @@ weatherObject1.onload = function() {
 
     document.getElementById("ConditionHC").innerHTML = weatherInfo.weather[0].main;
     document.getElementById("TemperatureHC").innerHTML = weatherInfo.main.temp;
-    document.getElementById("WindSpeedHc").innerHTML = weatherInfo.wind.speed;
+    document.getElementById("WindSpeedHC").innerHTML = weatherInfo.wind.speed;
     document.getElementById("HumidityHC").innerHTML = weatherInfo.main.humidity;
 
 }

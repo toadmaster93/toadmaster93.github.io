@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-temples.json';
+const requestURL = 'https://toadmaster93.github.io/directory/temples.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -11,6 +11,7 @@ fetch(requestURL)
   const temples = jsonObject['temples'];
 
   for (let i = 0; i < temples.length; i++ ) {
+    let image = document.createElement('img');
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let p1 = document.createElement('p');
@@ -21,8 +22,10 @@ fetch(requestURL)
     let p6 = document.createElement('p');
     let p7 = document.createElement('p');
 
-    let image = document.createElement('img');
     
+    
+    image.setAttribute('src', temples[i].imgurl);
+    image.setAttribute('alt', temples[i].name); 
     h2.textContent = temples[i].name;
     p1.textContent = "Address: " + temples[i].address;
     p2.textContent = "Telephone Number: " + temples[i].phone;
@@ -31,9 +34,8 @@ fetch(requestURL)
     p5.textContent = "Ordinance schedule: " + temples[i].ordinanceSchedule;
     p6.textContent = "Session Schedule: " + temples[i].sessionSchedule;
     p7.textContent = "Closure Schedule: " + temples[i].closureSchedule;
-    image.setAttribute('src', temples[i].imgurl);
-    image.setAttribute('alt', temples[i].name);  
-    
+     
+     card.appendChild(image);
     card.appendChild(h2);
     card.appendChild(p1);
     card.appendChild(p2);
@@ -42,7 +44,7 @@ fetch(requestURL)
     card.appendChild(p5);
     card.appendChild(p6);
     card.appendChild(p7);
-    card.appendChild(image);
+   
     
     document.querySelector('div.cards').appendChild(card);
 

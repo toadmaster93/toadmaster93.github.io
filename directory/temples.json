@@ -8,8 +8,8 @@
       "email":"Login into your LDS Church Acount to Email the Temple",
       "services" : [ "No clothing rental available", "No cafeteria available", "No patron housing available","Distribution center nearby"],
       "ordinanceSchedule": "See Link Below for More Information",
-      "sessionSchedule":"See Link Below for More Information",
-      "closureSchedule":[
+      "sessionSchedule": "See Link Below for More Information",
+      "closureSchedule": [
         "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
         "Tuesday, 31 December 2019 - Wednesday, 1 January 2020",
         "Saturday, 4 April 2020",
@@ -34,9 +34,9 @@
           "No patron housing available",
           "No distribution center nearby"
         ],
-       "ordinance schedule": "See Link Below for More Information",
-      "session schedule":"See Link Below for More Information",
-      "closure schedule":[
+      "ordinanceSchedule": "See Link Below for More Information",
+      "sessionSchedule":"See Link Below for More Information",
+      "closureSchedule":[
         "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
         "Tuesday, 31 December 2019 - Wednesday, 1 January 2020",
         "Tuesday, 24 March 2020 - Monday, 6 April 2020",
@@ -56,9 +56,9 @@
       "phone":"(1) 520-395-3900",
       "email":"Login into your LDS Church Acount to Email the Temple",
       "services":[ "No clothing rental available", "No cafeteria available", "No patron housing available","Distribution center nearby"],
-      "ordinance schedule": "See Link Below for More Information",
-      "session schedule":"See Link Below for More Information",
-      "closure schedule":[
+      "ordinanceSchedule": "See Link Below for More Information",
+      "sessionSchedule":"See Link Below for More Information",
+      "closureSchedule":[
         "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
         "Tuesday, 31 December 2019 - Wednesday, 1 January 2020",
         "Monday, 10 February 2020 - Monday, 24 February 2020",
@@ -84,9 +84,9 @@
         "No patron housing available",
         "No distribution center nearby"
                  ],
-      "ordinance schedule": "See Link Below for More Information",
-      "session schedule": "See Link Below for More Information",
-      "closure schedule":[
+      "ordinanceSchedule": "See Link Below for More Information",
+      "sessionSchedule": "See Link Below for More Information",
+      "closureSchedule":[
         "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
         "Tuesday, 31 December 2019 - Wednesday, 1 January 2020",
         "Monday, 23 March 2020 - Monday, 6 April 2020",

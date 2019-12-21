@@ -23,19 +23,66 @@
             <ul id="primaryNav" class="toggle">
             <li><a href="index.html">Home Page</a></li>
             <li><a href="temple.html">Temple Info</a></li>
-            <li><a href="services.html">Services</a></li>
+            <li class="drop"><a href="services.html">Services</a>
+                <ul class= "drop-down">
+                    <li><a href="reception.html">Wedding Receptions</a></li>
+                    <li><a href="FTmissionary.html">Full Time Missionary</a></li>
+                </ul>
+            </li>
             <li><a href="reservation.html">Reservation</a></li>
             <li><a href="contactPage.html">Contact Us</a> </li>            
         </ul> 
      </nav><br>
      <main>
-         
-
+         <div class="cards"></div>
+         <br>
+         <hr>
+         <br>
+            <h2>Current Weather Forcast for Each Temple Location</h2>
+            <div class="hero" >
+               <section class="stats">
+                   <h3><u>Hartford Connecticut</u></h3>
+                   <p>Currently:&nbsp;<span id="ConditionHC">clouds</span></p>
+                   <p>Current Temp:&nbsp;<span id="TemperatureHC">00</span>&deg;F</p>
+                   <p>Wind Speed:&nbsp;<span id="WindSpeedHC">00</span> mph</p> 
+                   <p>Humidity:&nbsp;<span id="HumidityHC"></span>%</p>
+                   <p>Wind Chill:&nbsp;<span id="shouldHC"></span>&deg;F</p>
+               </section>
+               <section class="stats">
+                <h3><u>Philadelphia Pennsylvania </u></h3>
+                <p>Currently:&nbsp;<span id="ConditionPP">clouds</span></p>
+                <p>Current Temp:&nbsp;<span id="TemperaturePP">00</span>&deg;F</p>
+                <p>Wind Speed:&nbsp;<span id="WindSpeedPP">00</span> mph</p> 
+                <p>Humidity:&nbsp;<span id="HumidityPP"></span>%</p>
+                <p>Wind Chill:&nbsp;<span id="shouldPP"></span>&deg;F</p>
+            </section>
+            <section class="stats">
+                    <h3><u>Tucson Arizona </u></h3>
+                    <p>Currently:&nbsp;<span id="ConditionTA">clouds</span></p>
+                    <p>Current Temp:&nbsp;<span id="TemperatureTA">00</span>&deg;F</p>
+                    <p>Wind Speed:&nbsp;<span id="WindSpeedTA">00</span> mph</p> 
+                    <p>Humidity:&nbsp;<span id="HumidityTA"></span>%</p>
+                    <p>Wind Chill:&nbsp;<span id="shouldTA"></span>&deg;F</p>
+                </section>
+                <section class="stats">
+                    <h3><u>Winter Quarters Nebraska </u></h3>
+                    <p>Currently:&nbsp;<span id="ConditionWN">clouds</span></p>
+                    <p>Current Temp:&nbsp;<span id="TemperatureWN">00</span>&deg;F</p>
+                    <p>Wind Speed:&nbsp;<span id="WindSpeedWN">00</span> mph</p> 
+                    <p>Humidity:&nbsp;<span id="HumidityWN"></span>%</p>
+                    <p>Wind Chill:&nbsp;<span id="shouldWN"></span>&deg;F</p>
+                </section>
+            </div>
      </main><br>
      <footer>
          <p>&copy;2019| Temple Inn & Suites | Thomas Berntsen | CIT 230<br>
         </footer>
      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
      <script src="java/menu.js"></script>
+     <script src="java/temple.js"></script>
+     <script src="java/wsHC.js"></script>
+     <script src="java/wsPP.js"></script>
+     <script src="java/wsTA.js"></script>
+     <script src="java/wsWN.js"></script>
 </body>
 </html>

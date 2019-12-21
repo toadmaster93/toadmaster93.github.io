@@ -23,14 +23,87 @@
             <ul id="primaryNav" class="toggle">
             <li><a href="index.html">Home Page</a></li>
             <li><a href="temple.html">Temple Info</a></li>
-            <li><a href="services.html">Services</a></li>
+            <li class="drop"><a href="services.html">Services</a>
+                <ul class= "drop-down">
+                    <li><a href="reception.html">Wedding Receptions</a></li>
+                    <li><a href="FTmissionary.html">Full Time Missionary</a></li>
+                </ul>
+            </li>
             <li><a href="reservation.html">Reservation</a></li>
             <li><a href="contactPage.html">Contact Us</a> </li>            
         </ul> 
      </nav><br>
      <main>
-         
-
+         <h2>Begin Your Temple Journey Today By Making your Reservation with us <br>With This Simple Form</h2>
+         <br>
+         <img src="Img/salt-lake-city-skyline.jpg" id="banner" alt="SLC">
+         <div class="form"></div>
+         <form action="thanks.html" method="get">
+         <fieldset>
+          <h3>Contact Information</h3>  
+         <label for="name">*Full Name:&nbsp;<input type="text" name="name" required><label>&nbsp;
+         <label>Email:&nbsp;<input type="email" name="email" placeholder="email@mail.com"></label>&nbsp;
+         <label for="phone">*Phone:&nbsp;<input type="tel" name="phone" placeholder="(000) 000-0000" required></label><br>
+         <label for="num">*Zip Code:&nbsp;<input type="number" name="num" required></label>&nbsp;
+         <label for="text">*Home State or Country&nbsp;<input type="text" name="location" required></label>
+         </fieldset><br>
+         <fieldset>
+          <h3>Temple Location</h3>
+          <label class="radio"><input type="radio" name="audiance" value="Hartford Connecticut Temple">&nbsp;Hartford Connecticut Temple</label>
+          <label class="radio"><input type="radio" name="audiance" value="Philadelphia Pennsylvania Temple">&nbsp;Philadelphia Pennsylvania Temple</label>&nbsp;
+          <label class="radio"><input type="radio" name="audiance" value="Tucson Arizona Temple">&nbsp;Tucson Arizona Temple</label>&nbsp;
+          <label class="radio"><input type="radio" name="audiance" value="Winter Quarters Nebraska Temple">&nbsp;Winter Quarters Nebraska Temple</label>
+         </fieldset><br>
+         <fieldset>
+         <h3>Room Reservation</h3>
+         <label>Check-In Date:&nbsp;<input type="date" name="completeDate"></label>&nbsp;
+         <label>Check-Out Date:&nbsp;<input type="date" name="completeDate"></label><br>
+         <label>Room Type:&nbsp;
+             <select name="subject">
+              <option value="">Select Room type</option>  
+              <option value="Queen: A queen-sized bed and may be occupied by one or more people.">Queen: A queen-sized bed and may be occupied by one or more people..</option> 
+              <option value="King: A king-sized bed and may be occupied by one or more people.">King: A king-sized bed and may be occupied by one or more people.</option> 
+              <option value="Twin: A room with two beds and May be occupied by one or more people">Twin: A room with two beds. May be occupied by one or more people.</option> 
+              <option value="Double-double: A room with two double beds. May be occupied by one or more people.">Double-double: A room with two double (or perhaps queen) beds. May be occupied by one or more people.   
+              </option> 
+              <option value="Junior Suite: A king-sized bed, with a Kitchette and Living Room">Junior Suite: A  king-sized bed, with a Kitchette and Living Room</option>  
+              <option value="Master Suite: Two double beds, with a Kitchette and Living Room">Master Suite: Two double beds, with a Kitchette and Living Room</option>    
+             </select>
+         </label><br>
+         <label>Special Considerations:&nbsp;
+             <select name="subject">
+                <option value="">Special Considerations</option> 
+                <option value="Connecting rooms: Rooms with individual entrance doors from the outside and a connecting door between.">Connecting rooms: Doors from the outside and a connecting door between.</option>  
+                <option value="Adjoining rooms: Rooms with a common wall, but no connecting door.">Adjoining rooms: Rooms with a common wall, but no connecting door.</option>  
+             <option value="Adjacent rooms: Rooms close to each other, perhaps across the hall.">Adjacent rooms: Rooms close to each other, perhaps across the hall.</option>
+             </select> 
+            </label><br>
+             <label>
+                <h3>Special Accommodations And Other Comments</h3>
+               <textarea name="mesdage" rows="10" cols="60"></textarea>
+             </label> 
+         </fieldset>
+           <input type="submit" value="Place your Vist" id="button">
+         </form>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="con-info">
+            <div class="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013225!2d-77.09772048539614!3d38.983251779557555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576881079501!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div>
+                <h2>Temple Inn and Suites</h2>
+                <p><b>Address:</b>&nbsp;4800 Montgomery Ln #300,<br> Bethesda, MD 20814<br><br>
+                   <b>Phone:</b>&nbsp;(800) 123-4567<br><br>
+                   <b>Email:</b>&nbsp;TempleInnSuits@mail.com<br><br>
+                   <a class="socialmedia" target="_blank" href="https://www.facebook.com" alt="Facebook"><img class="icon" src="Img/facebook.png" alt="Facebook"></a> 
+                   <a class="socialmedia" target="_blank" href="https://www.instagram.com" alt="Instagram"><img class="icon" src="Img/instagram.png" alt="Instagram"></a>
+                   <a class="socialmedia" target="_blank" href="https://www.twitter.com" alt="Twitter"><img class="icon" src="Img/twitter.png" alt="twitter"></a>
+                </p>
+            </div>
+           </div>
      </main><br>
      <footer>
          <p>&copy;2019| Temple Inn & Suites | Thomas Berntsen | CIT 230<br>

@@ -1,19 +1,12 @@
 {
-    "temples": [{
+    "temples": [
+      {
       "name":"Hartford Connecticut Temple",
-      "address": [
-         "2 Central Wy",
-         "Farmington CT 06032",
-         "United States"
+      "address": ["2 Central Wy Farmington, CT 06032 United States"
       ],
       "phone":"(1) 860-773-7200",
       "email":"",
-      "services":[
-         "No clothing rental available",
-         "No cafeteria available",
-         "No patron housing available",
-         "Distribution center nearby"
-      ],
+      "services" : [ "No clothing rental available", "No cafeteria available", "No patron housing available","Distribution center nearby"],
       "ordinanceSchedule": [
         "",
         ""

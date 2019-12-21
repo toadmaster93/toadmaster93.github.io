@@ -20,6 +20,12 @@
 		border: none;
 		padding: .8rem 1rem;
 	}
+	header h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2em;
+        margin: 0 0 0 17px;
+        color: #2D3142;
+    }
 	.sc {
 		max-width: 48%; 
 		padding: 10px;
@@ -30,13 +36,23 @@
         justify-content:right;
         align-items: right;	
 		}
+	#STL {
+		padding: 18px;
+		max-width: 80%;
+		display: inline-block;
+		align-content: center;
+		  }
     .con-info {
 		padding: 15px;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		}
+		#map {
+			display: block;
+		}
+
+	}
 
 
 
-}

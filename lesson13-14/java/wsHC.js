@@ -18,9 +18,9 @@ function windChill() {
     var chill = calculate(tempF, speed);
 
     if (tempF <= 50 && speed > 3) {
-        document.getElementById('should').textContent = chill;
+        document.getElementById('shouldHC').textContent = chill;
     } else {
-        document.getElementById('should').textContent = "N/A";
+        document.getElementById('shouldHC').textContent = "N/A";
     }
     
     }
